@@ -1,0 +1,31 @@
+soaps=50
+oil=168
+Salt=20
+wheat=50
+Rice=1150
+cname=input('enter customer name:')
+cphno=input('enter customer phone number:')
+nsugar=int(input('enter no. of soaps packets:'))
+noil=int(input('enter no. of oil packets:'))
+nsalt=int(input('enter no. of salt packets:'))
+nwheat=int(input('enter no. of wheat packets:'))
+nrice=int(input('enter no. of rice packets:'))
+bill=(soaps*nsoaps)+(oil*noil)+(salt*nsalt)+(wheat*nwheat)+(rice*nrice)
+print(bill)
+if bill>400p:
+    disc=bill*10/100
+    print(disc)   
+elif bill>3000:
+    disc=bill*8/100
+    print(disc)
+elif bill>2000:
+    disc=bill*5/100
+elif bill>1000:
+    disc=bill*3/100
+    print(disc)
+elif bill>3000:
+    tax=bill*10/100
+    print(tax)
+else:
+    tax=bill*18/100
+    print(tax)
